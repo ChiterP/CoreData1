@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		C1DF680926504F98004DDD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF680826504F98004DDD90 /* AppDelegate.swift */; };
 		C1DF680B26504F98004DDD90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF680A26504F98004DDD90 /* SceneDelegate.swift */; };
-		C1DF680D26504F98004DDD90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF680C26504F98004DDD90 /* ViewController.swift */; };
 		C1DF681026504F98004DDD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DF680E26504F98004DDD90 /* Main.storyboard */; };
 		C1DF681326504F98004DDD90 /* CoreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1DF681126504F98004DDD90 /* CoreData1.xcdatamodeld */; };
 		C1DF681526504FB3004DDD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DF681426504FB3004DDD90 /* Assets.xcassets */; };
 		C1DF681826504FB3004DDD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DF681626504FB3004DDD90 /* LaunchScreen.storyboard */; };
+		C1DF682026505F53004DDD90 /* WorkoutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF681F26505F53004DDD90 /* WorkoutListViewController.swift */; };
+		C1DF682226506165004DDD90 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF682126506165004DDD90 /* StorageManager.swift */; };
+		C1DF682A26541A9C004DDD90 /* AddNewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF682926541A9C004DDD90 /* AddNewWorkoutViewController.swift */; };
+		C1DF682E265455BD004DDD90 /* ShowWorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF682D265455BD004DDD90 /* ShowWorkoutTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1DF680526504F98004DDD90 /* CoreData1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DF680826504F98004DDD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DF680A26504F98004DDD90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1DF680C26504F98004DDD90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1DF680F26504F98004DDD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1DF681226504F98004DDD90 /* CoreData1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData1.xcdatamodel; sourceTree = "<group>"; };
 		C1DF681426504FB3004DDD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DF681726504FB3004DDD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1DF681926504FB3004DDD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DF681F26505F53004DDD90 /* WorkoutListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListViewController.swift; sourceTree = "<group>"; };
+		C1DF682126506165004DDD90 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		C1DF682926541A9C004DDD90 /* AddNewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewWorkoutViewController.swift; sourceTree = "<group>"; };
+		C1DF682D265455BD004DDD90 /* ShowWorkoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWorkoutTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,67 @@
 		C1DF680726504F98004DDD90 /* CoreData1 */ = {
 			isa = PBXGroup;
 			children = (
-				C1DF680826504F98004DDD90 /* AppDelegate.swift */,
-				C1DF680A26504F98004DDD90 /* SceneDelegate.swift */,
-				C1DF680C26504F98004DDD90 /* ViewController.swift */,
-				C1DF680E26504F98004DDD90 /* Main.storyboard */,
-				C1DF681426504FB3004DDD90 /* Assets.xcassets */,
-				C1DF681626504FB3004DDD90 /* LaunchScreen.storyboard */,
-				C1DF681926504FB3004DDD90 /* Info.plist */,
-				C1DF681126504F98004DDD90 /* CoreData1.xcdatamodeld */,
+				C1DF6825265419D9004DDD90 /* App */,
+				C1DF6823265419B1004DDD90 /* ViewControllers */,
+				C1DF682626541A08004DDD90 /* Resources */,
+				C1DF6824265419C2004DDD90 /* Storyboards */,
+				C1DF682826541A34004DDD90 /* CoreData */,
+				C1DF682726541A15004DDD90 /* StorageManager */,
 			);
 			path = CoreData1;
+			sourceTree = "<group>";
+		};
+		C1DF6823265419B1004DDD90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF681F26505F53004DDD90 /* WorkoutListViewController.swift */,
+				C1DF682926541A9C004DDD90 /* AddNewWorkoutViewController.swift */,
+				C1DF682D265455BD004DDD90 /* ShowWorkoutTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1DF6824265419C2004DDD90 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF680E26504F98004DDD90 /* Main.storyboard */,
+				C1DF681626504FB3004DDD90 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C1DF6825265419D9004DDD90 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF681926504FB3004DDD90 /* Info.plist */,
+				C1DF680A26504F98004DDD90 /* SceneDelegate.swift */,
+				C1DF680826504F98004DDD90 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C1DF682626541A08004DDD90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF681426504FB3004DDD90 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1DF682726541A15004DDD90 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF682126506165004DDD90 /* StorageManager.swift */,
+			);
+			path = StorageManager;
+			sourceTree = "<group>";
+		};
+		C1DF682826541A34004DDD90 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF681126504F98004DDD90 /* CoreData1.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DF680D26504F98004DDD90 /* ViewController.swift in Sources */,
+				C1DF682026505F53004DDD90 /* WorkoutListViewController.swift in Sources */,
 				C1DF680926504F98004DDD90 /* AppDelegate.swift in Sources */,
+				C1DF682226506165004DDD90 /* StorageManager.swift in Sources */,
 				C1DF681326504F98004DDD90 /* CoreData1.xcdatamodeld in Sources */,
+				C1DF682E265455BD004DDD90 /* ShowWorkoutTableViewController.swift in Sources */,
 				C1DF680B26504F98004DDD90 /* SceneDelegate.swift in Sources */,
+				C1DF682A26541A9C004DDD90 /* AddNewWorkoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7L83V7V4P;
-				INFOPLIST_FILE = CoreData1/Info.plist;
+				INFOPLIST_FILE = CoreData1/app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7L83V7V4P;
-				INFOPLIST_FILE = CoreData1/Info.plist;
+				INFOPLIST_FILE = CoreData1/app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

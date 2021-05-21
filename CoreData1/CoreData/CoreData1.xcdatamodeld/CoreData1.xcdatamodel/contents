@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Workout" representedClassName="Workout" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="repitFourKg" optional="YES" attributeType="String"/>
+        <attribute name="repitFourSec" optional="YES" attributeType="String"/>
+        <attribute name="repitOneKg" optional="YES" attributeType="String"/>
+        <attribute name="repitOneSec" optional="YES" attributeType="String"/>
+        <attribute name="repitThreeKg" optional="YES" attributeType="String"/>
+        <attribute name="repitThreeSec" optional="YES" attributeType="String"/>
+        <attribute name="repitTwoKg" optional="YES" attributeType="String"/>
+        <attribute name="repitTwoSec" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Workout" positionX="-45" positionY="0" width="128" height="179"/>
+    </elements>
+</model>
