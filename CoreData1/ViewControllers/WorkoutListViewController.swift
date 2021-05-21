@@ -61,17 +61,18 @@ class WorkoutListViewController: UITableViewController {
         return cell
     }
     
-    
+
     
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "showWorkout" {
-            let showWorkoutVC = segue.destination as? ShowWorkoutTableViewController
-            guard let indexPath = tableView.indexPathForSelectedRow else { return }
-            let workout = workouts[indexPath.row]
-            showWorkoutVC?.workouts = workout
-        } else { return }
+            
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let showWorkoutVC = segue.destination as! ShowWorkoutTableViewController
+                showWorkoutVC.workout = workouts[indexPath.row]
+            }
+        }
     }
 }

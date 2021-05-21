@@ -53,7 +53,7 @@
                     <navigationItem key="navigationItem" title="Workout List" largeTitleDisplayMode="always" id="cnV-v8-sl6">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Nv5-f8-isc">
                             <connections>
-                                <segue destination="Nh4-2w-NjT" kind="show" identifier="addWorkout" id="eBr-8K-HZ1"/>
+                                <segue destination="Nh4-2w-NjT" kind="presentation" identifier="addWorkout" modalPresentationStyle="fullScreen" id="eBr-8K-HZ1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -71,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введи название упражнения" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9bJ-Pp-XvX">
-                                <rect key="frame" x="16" y="131" width="288" height="40"/>
+                                <rect key="frame" x="16" y="40" width="288" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Zdx-n4-8oT"/>
                                 </constraints>
@@ -79,7 +79,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Укажи время/количество повторений для каждого подхода" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSW-C9-d0H">
-                                <rect key="frame" x="16" y="191" width="288" height="47"/>
+                                <rect key="frame" x="16" y="100" width="288" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="oCy-4h-19U"/>
                                 </constraints>
@@ -98,7 +98,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Укажи рабочий вес для каждого подхода" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3y-7W-U6T">
-                                <rect key="frame" x="16" y="352" width="288" height="47"/>
+                                <rect key="frame" x="16" y="261" width="288" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="ZdK-KI-fRh"/>
                                 </constraints>
@@ -107,7 +107,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fq8-Lh-ON9">
-                                <rect key="frame" x="81.5" y="419" width="157" height="76"/>
+                                <rect key="frame" x="81.5" y="328" width="157" height="76"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="YNn-Fv-Nd2">
                                         <rect key="frame" x="0.0" y="0.0" width="157" height="34"/>
@@ -170,7 +170,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K3X-tx-8l7">
-                                <rect key="frame" x="81.5" y="256" width="157" height="76"/>
+                                <rect key="frame" x="81.5" y="165" width="157" height="76"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="bBD-Ny-F6e">
                                         <rect key="frame" x="0.0" y="0.0" width="157" height="34"/>
